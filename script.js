@@ -1,5 +1,5 @@
 // Arrays
-var fruit = [
+let fruit = [
   "&#127813;",
   "&#127814;",
   "&#127815;",
@@ -18,9 +18,9 @@ var fruit = [
 ];
 let teller = 5;
 
-var rand1 = fruit[Math.floor(Math.random() * fruit.length)];
-var rand2 = fruit[Math.floor(Math.random() * fruit.length)];
-var rand3 = fruit[Math.floor(Math.random() * fruit.length)];
+let rand1 = fruit[Math.floor(Math.random() * fruit.length)];
+let rand2 = fruit[Math.floor(Math.random() * fruit.length)];
+let rand3 = fruit[Math.floor(Math.random() * fruit.length)];
 
 document.getElementById('fruit1').innerHTML = rand1;
 document.getElementById('fruit2').innerHTML = rand2;
@@ -30,9 +30,9 @@ document.getElementById('teller').innerHTML = "Aantal pogingen: " + teller;
 
 // Functie voor random fruit
 function myFunction() {
-  var rand1 = fruit[Math.floor(Math.random() * fruit.length)];
-  var rand2 = fruit[Math.floor(Math.random() * fruit.length)];
-  var rand3 = fruit[Math.floor(Math.random() * fruit.length)];
+  let rand1 = fruit[Math.floor(Math.random() * fruit.length)];
+  let rand2 = fruit[Math.floor(Math.random() * fruit.length)];
+  let rand3 = fruit[Math.floor(Math.random() * fruit.length)];
 
   document.getElementById('fruit1').innerHTML = rand1;
   document.getElementById('fruit2').innerHTML = rand2;
